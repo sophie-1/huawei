@@ -1,0 +1,582 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+
+/*万能清除浮动*/
+
+.clearfix:after,
+.clearfix:before {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom=1;
+}
+
+
+/*兼容IE6*/
+
+html,
+body {
+	width: 100%;
+	font-size: 625%;
+	height: 100%;
+}
+
+body {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	color: #000;
+}
+
+header {
+	width: 100%;
+	height: 0.46rem;
+	
+}
+.top-header{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	background: white;
+	display: flex;
+}
+section.logo {
+	flex: 2;
+	height: 100%;
+	background: red;
+	float: left;
+	position: relative;
+}
+
+section.logo a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+section.logo a img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+section.search {
+	flex: 5;
+	height: 100%;
+	margin-left: 0.2rem;
+	float: left;
+	position: relative;
+}
+
+section.search input {
+	background: gainsboro;
+	width: 90%;
+	height: 85%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 25px;
+	margin: 3px;
+	border: 0;
+	font-size: 20px;
+	text-indent: 10px;
+	color: darkgray;
+}
+
+section.cart {
+	flex: 2;
+	height: 100%;
+	/*background: black;*/
+	float: left;
+	position: relative;
+}
+
+section.cart a {
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+section.cart a img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 10px;
+	top: 5px;
+}
+
+section.login {
+	flex: 2;
+	height: 100%;
+	float: left;
+	margin-left: 4px;
+	position: relative;
+}
+
+section.login a {
+	font-size: 20px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-left: 9px;
+	margin-top: 15px;
+	color: black
+}
+
+
+/*swipe*/
+
+.swiper-container {
+	width: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-slide img {
+	width: 100%;
+}
+
+
+/*swipe结束*/
+
+section.list {
+	width: 100%;
+	height: 2.87rem;
+	margin-bottom: .092rem;
+}
+
+section.list ul {
+	width: 100%;
+	height: 50%;
+}
+
+section.list ul li {
+	width: 25%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+section.list ul li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	padding-top: .92rem;
+	box-sizing: border-box;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+section.list ul li a p {
+	/*margin-left: .1rem;*/
+	color: black;
+	font-size: .12rem;
+	text-align: center;
+	text-align: center;
+}
+
+section.list ul li a p.title {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+section.list ul li a p.price {
+	position: absolute;
+	left: 0px;
+	top: 20px;
+	color: grey;
+}
+
+section.list ul li a p.pic {
+	position: absolute;
+	left: 0;
+	top: .5rem;
+}
+
+section.list ul li a p.pic img {
+	width: .72rem;
+	height: .72rem;
+}
+
+article.channel {}
+
+article.channel ul {
+	width: 100%;
+	height: 0.82rem;
+}
+
+article.channel ul li {
+	width: 20%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+
+article.channel ul li a {
+	display: block;
+	padding: 9.2px 4.6px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+article.channel ul li a img {
+	width: 0.46rem;
+	height: 0.46rem;
+	position: absolute;
+	left: 50%;
+	top: 0px;
+	margin-left: -.23rem;
+}
+
+article.channel ul li a p {
+	font-size: .1rem;
+	position: absolute;
+	bottom: 10px;
+	left: 15%;
+}
+
+section.channel-notice {
+	display: flex;
+	width: 100%;
+	height: .6rem;
+}
+
+section.channel-notice div:nth-child(1) {
+	flex: 3.5;
+	height: 100%;
+	text-align: center;
+	position: relative;
+	padding: 0 .092rem 0 .184rem;
+	line-height: .6rem;
+	float: left;
+}
+
+section.channel-notice div a {
+	display: block;
+	height: 100%;
+	font-size: .3rem;
+	font-weight: bold;
+	color: black;
+}
+
+section.channel-notice div:nth-child(2) {
+	/*width: 2.11rem;*/
+	flex: 6.5;
+	height: 100%;
+	float: left;
+	padding: 0 .10rem 0 .65rem;
+	position: relative;
+}
+
+section.channel-notice div:nth-child(2) i {
+	display: inline-block;
+    width: .35rem;
+    height: 50%;
+    padding: .06rem .1rem;
+    position: absolute;
+    left: .1rem;
+    top: .06rem;
+    font-size: 30px;
+    color: red;
+}
+
+section.channel-notice div:nth-child(2) ul {
+	width: 100%;
+	margin-left: .15rem;
+	height: 100%;
+}
+
+section.channel-notice div:nth-child(2) ul li {
+	width: 100%;
+	height: 100%;
+}
+
+section.channel-notice div:nth-child(2) ul li a {
+	width: 100%;
+	height: 100%;
+	margin-top: .19rem;
+	font-weight: normal;
+	font-size: .2rem;
+}
+
+
+/*精品推荐*/
+
+section.hotGoods {
+	width: 100%;
+}
+
+section.hotGoods header.h {
+	height: .345rem;
+}
+section.hotGoods header.h h3 {
+	font-size: .2rem;
+    text-align: center;
+    line-height: .345rem;
+    color: #888;
+    background: #f7f7f7
+}
+
+section.hotGoods .banner {
+	width: 100%;
+	height: .92rem;
+	position: relative;
+}
+
+section.hotGoods .banner a {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+section.hotGoods .banner a img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0
+}
+section.hotGoods .Goods ul{
+	width: 100%;
+	height: 1.8rem;
+	/*background: red;*/
+	
+}
+section.hotGoods .Goods ul li{
+	width: 33.3%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+section.hotGoods .Goods ul li a{
+	display: inline-block;
+	padding:9.2px 4.6px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+section.hotGoods .Goods ul li a .pImg{
+	width: .83rem;
+	height: .83rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 10.35px;
+	margin:0 9.13px;
+}
+section.hotGoods .Goods ul li a .pImg img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left:9.13px;
+	top: 10.35px;
+}
+section.hotGoods .Goods ul li a p{
+	font-size: .12rem;
+}
+section.hotGoods .Goods ul li a .p-name{
+	position: absolute;
+    left: 20px;
+    bottom: .37rem;
+    color: black;
+    width: 100px;
+	
+}
+section.hotGoods .Goods ul li a .p-dsc{
+	position: absolute;
+    left: 19px;
+    bottom: 0.2rem;
+    color: grey;
+}
+section.hotGoods .Goods ul li a .p-price{
+	position: absolute;
+	left: .4rem;
+	bottom: .05rem;
+	color: red;
+	text-align:center;
+}
+section.List2 .Goods ul li{
+	display: inline-block;
+	width: 50%;
+}
+section.List2 .Goods ul li a{
+	padding: 9.2px 18.4px;
+	
+}
+section.List2 .Goods ul li a .pImg{
+	padding: 9.2px 29.9px;
+}
+section.List2 .Goods ul li a .p-dsc{
+	position: absolute;
+    left: .16rem;
+    /*bottom: 0.22rem;*/
+    color: grey;
+}
+section.List2 .Goods ul li a .p-price {
+    position: absolute;
+    left: .6rem;
+    bottom: 0rem;
+    }
+section.bottom-area{
+	width: 100%;
+	height: 1.13rem;
+	margin-top: 9.2px;
+	padding:.207rem 0;
+}
+section.bottom-area p.login{
+	margin: 0 .8rem;
+	box-sizing: border-box;
+	height: .16rem;
+	/*background: red;*/
+	position: relative;
+}
+section.bottom-area p.login a,p.touch a{
+	display: inline-block;
+    /*padding: .045rem .18rem;*/
+    font-size: .15rem;
+    color: #888;
+    text-align: center;
+}
+section.bottom-area p.login a.login{
+	position: absolute;
+	left: 20%;
+	top: 0;  
+}
+section.bottom-area p.login a.back{
+	position: absolute;
+	left: 50%;
+	top: 0; 
+}
+section.bottom-area p.touch{
+	padding: 11.5px 0;
+	width: 100%;
+	height: .38rem;
+	/*background: yellow;*/
+	box-sizing:border-box ;
+	position: relative;
+}
+section.bottom-area p.touch a{
+	position: absolute;	
+	top:12px;
+}
+section.bottom-area p.touch a.touch{
+	left: 20%;
+}
+section.bottom-area p.touch a.computer{
+	left: 40%;
+}
+section.bottom-area p.touch a.kehu{
+	left: 60%;
+}
+section.bottom-area p.copyright{
+	/*width: 100%;*/
+	height: .18rem;
+	position: relative;
+}
+section.bottom-area p.copyright span{
+	font-size: .14rem;
+	position: absolute;	
+	left: 30%;
+	top:0px;
+}
+.footer-bar{
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: .58rem;
+	/*background: yellow;*/
+}
+.footer-bar ul{
+	width: 100%;
+	background: white;
+}
+.footer-bar ul li{
+	width: 20%;
+	height: .58rem;
+	/*background: pink;*/
+	position: relative;
+	float: left;
+}
+.footer-bar ul li a{
+	display: inline-block;
+	padding-top: 5.7px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.footer-bar ul li a i{
+	position: absolute;
+	left: 0;
+	top:0;
+	font-size:.35rem;
+	/*width: .275rem;
+	height: .275rem;*/
+	text-align: center;
+	margin: 0 .27rem;
+}
+.footer-bar ul li a span{
+	font-size: .14rem;
+	line-height: .24rem;
+	position: absolute;
+	left: 35%;
+	bottom:5px;
+}
+.footer-bar ul li a span.shouye{
+	color: red;
+}

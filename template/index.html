@@ -1,0 +1,167 @@
+<header class="clearfix top-header">
+	<section class="logo">
+		<a href="#">
+			<img src="img/index-img/logo.png" />
+		</a>
+	</section>
+	<section class="search">
+		<input type="text" value="搜索..." ng-click="search()"/>
+	</section>
+	<section class="cart">
+		<a href="#/shoppingCart">
+			<img src="img/index-img/icon_shoppingCart.png" />
+		</a>
+	</section>
+	<section class="login">
+		<a href="#/login">登录</a>
+	</section>
+</header>
+
+<div class="swiper-container">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="img/index-img/1.jpg" /></div>
+		<div class="swiper-slide"><img src="img/index-img/2.png" /></div>
+		<div class="swiper-slide"><img src="img/index-img/3.jpg" /></div>
+		<div class="swiper-slide"><img src="img/index-img/1.jpg" /></div>
+		<div class="swiper-slide"><img src="img/index-img/7.png" /></div>
+		<div class="swiper-slide"><img src="img/index-img/8.png" /></div>
+	</div>
+	<!-- Add Pagination -->
+	<!--<div class="swiper-pagination"></div>-->
+</div>
+<section class="list">
+	<ul class="clearfix" ng-repeat="list in data1">
+		<li ng-repeat="li in list.data1_list">
+			<a>
+				<p class="title">{{li.title}}</p>
+				<p class="price">{{li.price}}</p>
+				<p class="pic">
+				<img ng-src="{{li.picture}}" />
+				</p>
+			</a>
+		</li>
+	</ul>
+	
+	</ul>
+</section>
+<article class="channel">
+	<ul class="clearfix">
+		<li ng-repeat="data in data2">
+			<a>
+				<img src="{{data.pic}}"/>
+				<p>{{data.name}}</p>
+			</a>
+		</li>
+	</ul>
+</article>
+<section class="channel-notice clearfix">
+	<div>
+		<a href="#" class="notic">公告</a>
+	</div>
+	<div>
+		<i class="iconfont icon-13"></i>
+		<ul>
+			<li>
+				<a>Vmall 购机攻略</a>
+			</li>
+		</ul>
+	</div>
+</section>
+<!--热销商品-->
+<section class="hotGoods">
+	<header class="h">
+		<h3>精品推荐</h3>
+	</header>
+	<div class="banner">
+		<a>
+			<img src="img/index-img/banner.jpg" />
+		</a>
+	</div>
+	<div class="Goods">
+		<ul class="clearfix" ng-repeat="list in data3">
+			<li ng-repeat="li in list.data3_list">
+				<a ng-href="#/detail?id={{li.id}}">
+					<p class="pImg">
+						<img src="{{li.pic}}" />
+					</p>
+					<p class="p-name">{{li.name}}</p>
+					<p class="p-dsc">{{li.desc}}</p>
+					<p class="p-price">{{li.price}}</p>
+				</a>
+			</li>
+	</div>
+</section>
+<!--笔记本平板-->
+<section class="hotGoods List2">
+	<header class="h">
+		<h3>笔记本平板</h3>
+	</header>
+	<div class="banner">
+		<a>
+			<img src="img/index-img/banner2.jpg" />
+		</a>
+	</div>
+	<div class="Goods">
+		<ul ng-repeat="list in data4">
+			<li ng-repeat="li in list.data4_list">
+				<a href="#">
+					<p class="pImg">
+						<img src="{{li.pic}}" />
+					</p>
+					<p class="p-name">{{li.name}}</p>
+					<p class="p-dsc">{{li.desc}}</p>
+					<p class="p-price">{{li.price}}</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+</section>
+<section class="bottom-area">
+	<p class="login">
+		<a href="#/login" class="login">登录</a>
+		<a href="#" class="back">反馈</a>
+	</p>
+	<p class="touch">
+		<a href="#" class="touch">触屏版</a>
+		<a href="#" class="computer">电脑版</a>
+		<a href="#" class="kehu">客户端</a>	
+	</p>
+	<p class="copyright">
+		<span>Copyright © 2011-2016</span>
+	</p>
+</section>
+<div class="footer-bar">
+	<ul class="clearfix">
+		<li>
+			<a>
+				<i class="iconfont icon-shouye-copy"></i>
+				<span class="shouye">首页</span>
+			</a>
+		</li><li>
+			<a>
+				<i class="iconfont icon-huawei"></i>
+				<span>华为</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<i class="iconfont icon-rongyu"></i>
+				<span>荣耀</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<i class="iconfont icon-fenlei"></i>
+				<span>分类</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<i class="iconfont icon-wode"></i>
+				<span>我的</span>
+			</a>
+		</li>
+	</ul>
+</div>
+<!--进入详情页-->
+<div ui-view=""></div>

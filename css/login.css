@@ -1,0 +1,171 @@
+body {
+		background-color: #F6F6F6;
+		color: rgba(0, 0, 0, 0.85);
+		font-size: .16rem;
+	}
+	
+	.loginImg {
+		width: 100%;
+		height: .8rem;
+		margin-top: .2rem;
+		position: relative;
+	}
+	
+	.loginImg img {
+		width: 1.13rem;
+		height: .8rem;
+		text-align: center;
+		position: absolute;
+		/*left:50%;
+		top: 50%;
+		margin-left: -.7rem;*/
+		margin-top: .4rem;
+		transform:  translate(130%,-50%);
+	}
+	h3{
+		font-size: .2rem;
+		/*transform:  translate(130%,-10%);*/
+		margin-left: 126px;
+   	    margin-top: .2rem;
+	}
+	.wc-details{
+		color: #808181;
+		line-height: .17rem;
+		margin: 0 auto;
+		margin-top: .15rem;
+		width: 90%;
+	}
+	.loginBox .userName,.loginBox .password{
+		width: 80%;
+		height: .4rem;
+		/*background: gray;*/
+		margin:0 auto;
+		margin-top: .1rem;
+		border: 1px solid #CCCCCC;
+		border-radius: .15rem;
+		}
+	.loginBox .password{
+		position: relative;
+	}
+	
+	.loginBox i{
+		font-size: .3rem;
+		position: absolute;
+		right:.1rem;
+		top: .05rem;
+		
+	}
+	.loginBox .userName input,.loginBox .password input,.securityCode input{
+			width: 100%;
+			height: 100%;
+			border: none;
+			border-radius: .15rem;
+			outline: 0;
+			text-indent:.15rem ;
+			color: #b3b3b3;
+			
+		}
+	.Code{
+		display: flex;
+		position: relative;
+	}
+	.securityCode{
+		width: 35%;
+		height: .4rem;
+		background: gray;
+		margin-left: .4rem;
+		margin-top: .1rem;
+		border-radius: .15rem;
+		border: 1px solid #CCCCCC;
+		flex:5;
+		
+		
+		
+	}
+	.securityCode input{
+		/*flex: 3;*/
+		
+	}
+	.Code img{
+		/*width: 30%;*/
+		height: .5rem;
+		flex:2;
+		padding-right: .8rem;
+		margin-top: .08rem;
+		
+	}
+	.Code i{
+		flex: 4;
+    font-size: .4rem;
+    position: absolute;
+    right: .39rem;
+    top: .08rem;
+
+
+	}
+	.remenber{
+		font-size: .14rem;
+	}
+	.remenber input{
+		width: .15rem;
+		height: .15rem;
+		margin-left: .45rem;
+		margin-top: .1rem;
+		border: none;
+		outline: none;
+		border: 1px solid #CCCCCC;
+		border-radius:50% ;
+		margin-right: .05rem;
+		float: left;
+	}
+	.remenber span{
+		float: left;
+		margin-top: .08rem;
+		
+		
+	}
+	.remenber a{
+		float: right;
+		margin-top: .08rem;
+		margin-right: .55rem;
+		
+	}
+	.login{
+		display: flex;
+		width: 80%;
+		height: .4rem;
+		/*margin: 0 auto;*/
+		
+	}
+	.login input{
+		flex: 1;
+		width: 100%;
+		height: 100%;
+		padding:0 1.5rem;
+		background-color: #EEEEEE;
+		margin-right: .68rem;
+		margin-left: -.25rem;
+		margin-top: .18rem;
+		border: none;
+		border: 1px solid #CCCCCC;
+		outline: none;
+		border-radius: .25rem;
+	}
+	.freeReg{
+		margin: 0 auto;
+		text-align: center;
+		margin-top: .25rem;
+	}
+	.freeReg a{
+		color: #28c0c6;
+		font-size: .14rem;
+	}
+	.icon{
+		text-align: center;
+		margin-top: .1rem;
+		margin-left: -.25rem;
+	}
+	.iconfont{
+		font-size: .24rem;
+		margin-left: .1rem;
+	}

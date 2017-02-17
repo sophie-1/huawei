@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="App">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../js/angular.js" ></script>
+	</head>
+	<body ng-controller="Ctrl">
+		<!--<button>1</button>
+		<button>1</button>
+		<button>1</button>-->
+		<!--<ul ng-repeat="list in data1">
+			<li ng-repeat="li in lists">{{li.title}}</li>
+		</ul>-->
+		<!--<ul>
+			<li>2</li>
+		</ul>
+		<ul>
+			<li>3</li>
+		</ul>-->
+		<ul ng-repeat="li in data1">
+			<!--<p>{{li.id}}</p>-->
+			<li ng-repeat="i in li.data1_list">{{i.title}}</li>
+		</ul>
+	</body>
+	<script>	
+//		var	Button=document.getElementsByTagName('button');
+//		for(var i=0;i<Button.length;i++){
+//			Button[i].index=i;
+//			Button[i].onclick=function(){
+//				console.log(this.index)
+//			}
+//		}	
+		var app=angular.module('App',[]);
+		app.controller('Ctrl',function($scope,$http){
+			$http.get('../json/1.json').success(function(data){
+				$scope.data1=data.data1
+				//$scope.lists=$scope.data1[0].data1_list
+//				console.log($scope.data1.data1_list)
+//				console.log($scope.lists)
+			})
+		})
+	</script>
+</html>

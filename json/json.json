@@ -1,0 +1,311 @@
+{
+	"data1": [
+		{
+			"data1_list": [
+				{
+					"id": 1,
+					"title": "HUAWEI Mate 9",
+					"price": "3399元起",
+					"picture": "img/index-img/8a8d95e460442b2dafd82e8cb9499bb5.png"
+				}, {
+					"id": 2,
+					"title": "荣耀8",
+					"price": "最高直降100元",
+					"picture": "img/index-img/740fb154e1028a5f93d86f5295e08270.png"
+				}, {
+					"id": 3,
+					"title": "荣耀v8",
+					"price": "2099元起",
+					"picture": "img/index-img/5e917cf5dc3525de283e8905c6db2f61.png"
+				}, {
+					"id": 4,
+					"title": "HUAWEI Mate 9",
+					"price": "保时捷设计",
+					"picture": "img/index-img/26a13c1bedd63b9de963e78fe742ed8e.png"
+				}
+			]
+		}, {
+
+			"data1_list": [
+				{
+					"id": 5,
+					"title": "荣耀畅玩6X",
+					"price": "千元旗舰",
+					"picture": "img/index-img/9d33cde7b2baafc05d5caf84f1c25bab.png"
+				}, {
+					"id": 6,
+					"title": "华为畅享6S",
+					"price": "1499元",
+					"picture": "img/index-img/d3a6f3892ecdd16c1c0d2a7dd9e98fc4.png"
+				}, {
+					"id": 2,
+					"title": "HUAWEI P9",
+					"price": "2788元起",
+					"picture": "img/index-img/83ede91626e1331d2f93287ee88a9c85.png"
+				}, {
+					"id": 2,
+					"title": "荣耀Magic",
+					"price": "3699元",
+					"picture": "img/index-img/b3966cac23b87d92ae4621f675a8fa2a.png"
+				}
+			]
+		}
+	],
+	"data2": [
+		{
+			"id": 1,
+			"name": "特权频道",
+			"pic": "img/index-img/13.png"
+		}, {
+			"id": 2,
+			"name": "以旧换新",
+			"pic": "img/index-img/9.png"
+		}, {
+			"id": 3,
+			"name": "手机导购",
+			"pic": "img/index-img/10.png"
+		}, {
+			"id": 4,
+			"name": "优购码",
+			"pic": "img/index-img/11.png"
+		}, {
+			"id": 5,
+			"name": "移动端特惠",
+			"pic": "img/index-img/12.png"
+		}
+	],
+	"data3": [
+		{
+			"data3_list": [
+				{
+					"id": 1,
+					"name": "荣耀8",
+					"desc": "领券减100元",
+					"price": "¥1999",
+					"pic": "img/index-img/428_428_1476789628817mp.jpg"
+				}, {
+					"id": 2,
+					"name": "Mate 9 Pro",
+					"desc": "2K双曲面屏",
+					"price": "¥4699",
+					"pic": "img/index-img/428_428_1480922774554mp.jpg"
+				}, {
+					"id": 3,
+					"name": "HUAWEI nova",
+					"desc": "张艺兴定制版|赠CD",
+					"price": "¥2599 ",
+					"pic": "img/index-img/1482810422604.png"
+				}
+			]
+		}, {
+			"data3_list": [
+				{
+					"id": 4,
+					"name": "荣耀 NOTE 8",
+					"desc": "可享花呗分期免息",
+					"price": "¥2499 ",
+					"pic": "img/index-img/428_428_1469697001414mp.jpg"
+				}, {
+					"id": 5,
+					"name": "HUAWEI P9 Plus",
+					"desc": "购机送好礼",
+					"price": "¥1499",
+					"pic": "img/index-img/428_428_1467185681570mp.jpg"
+				}, {
+					"id": 6,
+					"name": "荣耀7i",
+					"desc": "原价1499 直降200",
+					"price": "¥1299 ",
+					"pic": "img/index-img/428_428_1468402593957mp.jpg"
+				}
+			]
+		}, {
+			"data3_list": [
+				{
+					"id": 7,
+					"name": "荣耀畅玩5A",
+					"desc": "青春好拍档",
+					"price": "¥699 ",
+					"pic": "img/index-img/1474557254378.jpg"
+				}, {
+					"id": 8,
+					"name": "华为畅享6",
+					"desc": "充沛电力  指纹识别",
+					"price": "¥1499",
+					"pic": "img/index-img/428_428_1476776465182mp.jpg"
+				}, {
+					"id": 9,
+					"name": "荣耀畅玩5X",
+					"desc": "金属 指纹",
+					"price": "¥1499",
+					"pic": "img/index-img/1474557391328.jpg"
+				}
+			]
+		}, {
+			"data3_list": [
+				{
+					"id": 10,
+					"name": "荣耀畅玩5",
+					"desc": "惊艳小屏",
+					"price": "¥1499",
+					"pic": "img/index-img/1474557464550.jpg"
+				}, {
+					"id": 11,
+					"name": "荣耀畅玩5C",
+					"desc": "真芯长续航",
+					"price": "¥1499",
+					"pic": "img/index-img/428_428_1481595835349mp.jpg"
+				}, {
+					"id": 12,
+					"name": "华为畅享5S",
+					"desc": "轻薄金属机身",
+					"price": "¥1499",
+					"pic": "img/index-img/428_428_1468892403509mp.jpg"
+				}
+			]
+		}, {
+			"data3_list": [
+				{
+					"id": 13,
+					"name": "G9 青春版",
+					"desc": "送精美皮套",
+					"price": "¥1499",
+					"pic": "img/index-img/428_428_1467358394210mp.jpg"
+				}, {
+					"id": 14,
+					"name": "HUAWEI VR眼镜",
+					"desc": "改变视界",
+					"price": "¥1499",
+					"pic": "img/index-img/428_428_1481613831728mp.jpg"
+				}, {
+					"id": 15,
+					"name": "荣耀手表 S1",
+					"desc": "实时心率监测",
+					"price": "¥1499",
+					"pic": "img/index-img/1478144416197.jpg"
+				}
+			]
+		}, {
+			"data3_list": [
+				{
+					"id": 16,
+					"name": "华为路由 A1 Lite",
+					"desc": "450M无线路由器",
+					"price": "¥1499",
+					"pic": "img/index-img/1479701038263.jpg"
+				}, {
+					"id": 17,
+					"name": "荣耀盒子Pro",
+					"desc": "智能语音 跨屏续播",
+					"price": "¥1499",
+					"pic": "img/index-img/1478144510574.jpg"
+				}, {
+					"id": 18,
+					"name": "1000mAh电源",
+					"desc": "匠心工艺 多重防护",
+					"price": "¥1499",
+					"pic": "img/index-img/1480506818544.png"
+				}
+			]
+		}
+	],
+	"data4": [
+		{
+			"data4_list": [
+				{
+					"id": 3,
+					"name": "华为平板 M3",
+					"desc": "匠心工艺 多重防护",
+					"price": "¥1499",
+					"pic": "img/index-img/1480039224844.jpg"
+				}, {
+					"id": 3,
+					"name": "荣耀平板2",
+					"desc": "八核强劲芯片 3GB大内存",
+					"price": "¥1499",
+					"pic": "img/index-img/1476785750186.jpg"
+				}
+			]
+		}, {
+			"data4_list": [
+				{
+					"id": 3,
+					"name": "华为平板 M3",
+					"desc": "匠心工艺 多重防护",
+					"price": "¥1499",
+					"pic": "img/index-img/1481511184620.jpg"
+				}, {
+					"id": 3,
+					"name": "荣耀畅玩平板",
+					"desc": "大容量电池强劲续航",
+					"price": "¥1499",
+					"pic": "img/index-img/1477278943587.jpg"
+				}
+			]
+		}, {
+			"data4_list": [
+				{
+					"id": 3,
+					"name": "华为 M2 青春版 7.0英寸",
+					"desc": "12.26-12.31 部分版赠保护套",
+					"price": "¥1499",
+					"pic": "img/index-img/1477966364009.png"
+				}, {
+					"id": 3,
+					"name": "华为 M2 10.0 平板电脑",
+					"desc": "指纹识别芯片 高清拍照",
+					"price": "¥1499",
+					"pic": "img/index-img/1478249422420.jpg"
+				}
+			]
+		}, {
+			"data4_list": [
+				{
+					"id": 3,
+					"name": "荣耀畅玩平板note",
+					"desc": "9.6英寸IPS高清屏幕",
+					"price": "¥1499",
+					"pic": "img/index-img/1474556925605.jpg"
+				}, {
+					"id": 3,
+					"name": "华为 M2 青春版 10.1英寸",
+					"desc": "出色续航 纯净音质",
+					"price": "¥1499",
+					"pic": "img/index-img/1474556899094.jpg"
+				}
+			]
+		}
+	],
+	"goodsList": [
+		{
+			"id": 1,
+			"name": "荣耀手环zero"
+		}, {
+			"name": "荣耀手表S1"
+		}, {
+			"name": "荣耀  color cube 立体声蓝牙音箱"
+		}, {
+			"name": "荣耀 am116 半入耳式耳机"
+		}, {
+			"name": "荣耀 note 8 保护套"
+		}, {
+			"name": "华为揽阅 m2 青春版 10.1英寸平板电脑"
+		}, {
+			"name": "华为路由 q1 子路由"
+		}, {
+			"name": "华为终端延保服务（半年期）"
+		}, {
+			"name": "华为 huawei mediapad m2 磁力皮套"
+		}, {
+			"name": "华为 畅享5s"
+		}, {
+			"name": "荣耀 note 8 保护套"
+		}, {
+			"name": "华为揽阅 m2 青春版 10.1英寸平板电脑"
+		}, {
+			"name": "华为路由 q1 子路由"
+		}, {
+			"name": "华为尊享手机版"
+		}
+	]
+}

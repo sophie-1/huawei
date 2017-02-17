@@ -1,0 +1,40 @@
+ <!--注册页面开始-->
+ 		<link rel="stylesheet" href="css/register.css" />
+ 		<link rel="stylesheet" href="css/bootstrap.css" />
+ 		<link rel="stylesheet" href="css/bootstrap-main.css" />
+ 		<link rel="stylesheet" href="css/jquery-confirm.css" />
+ 		<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+ 		<link rel="stylesheet" href="css/bootstrap.global.css" />
+ 		<link href="css/fonts/style.css" rel="stylesheet" />
+        <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+<!--注册页面结束-->
+ <div class="layout-header">
+        <div class="search-bar">
+            <a href="javascript:window.history.go(-1)"><i class="clip-chevron-left"></i></a>
+            <div>注册</div>
+            <a href="javascript:$('.navmorelist').toggleClass('item-hidden')"><i class="clip-list"></i></a>
+        </div>
+   </div>    
+    <div class="layout-body">
+        <!--注册-->
+        <form class="userca regin" action="data/bussiness.txt" method="post">
+            <ul>
+                <li class="col-xs-12 item-relative"><input type="text" placeholder="请输入用户名" id="username" name="username" class="form-control required" ng-blur="userBlur()" ng-focus="userFocus()"></li>
+            </ul>
+            <ul>
+                <li class="col-xs-12 item-relative"><input type="text" placeholder="请输入密码" id="reg_password" name="password" class="form-control {required:true,minlength:6}" ng-focus="passFocus()" ng-blur="passBlur()"></li>
+            </ul>
+            <ul>
+                <li class="col-xs-12 item-relative"><input type="text" value="确认密码" id="password2" name="password2" class="form-control {required:true,minlength:6,comparePwd:'#reg_password'}" ng-focus="passFocus2()" ng-blur="passBlur2()"></li>
+            </ul>
+            <ul>
+                <li class="col-xs-12"><div class="btn btn-bricky" ng-click="register()">注册</div></li>
+            </ul>
+        </form>
+    </div>
+    <div navmorelist></div>
+    <style>
+    	.btn{
+    		font-size: .14rem;
+    	}
+    </style>

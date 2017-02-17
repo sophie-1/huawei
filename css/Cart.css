@@ -1,0 +1,134 @@
+body{
+	height: 10rem;
+}
+	*{
+		font-size: .14rem;
+	}
+	.breadcrumb header {
+		width: 100%;
+		height: .51rem;
+		display: flex;
+		left: 100px;
+		border-bottom: 1px solid #CCCCCC;
+	}
+	
+	.breadcrumb header a {
+		display: inline-block;
+		flex: 2;
+		position: relative;
+	}
+	
+	.breadcrumb header a i {
+		position: absolute;
+		left: .15rem;
+		top: .02rem;
+		color: #ccc;
+		font-size: .4rem;
+	}
+	
+	.breadcrumb header b {
+		flex: 6;
+		font-size: .2rem;
+		line-height: .51rem;
+		color: #DCDCDC;
+	}
+	
+	.breadcrumb header span {
+		flex: 2;
+		position: relative;
+	}
+	
+	.breadcrumb header span i {
+		font-size: .35rem;
+		position: absolute;
+		line-height: .51rem;
+		margin-left: .2rem;
+	}
+	hr{
+		position: fixed;
+		padding-right: 3.7rem;
+	}
+	.content{
+		width: 100%;
+		height: .4rem;
+		/*background: gainsboro;*/
+		padding: 0 .1rem;
+		box-sizing: border-box;
+		font-size: .14rem;
+		border-bottom: 1px solid #CCCCCC;
+	}
+	.content b{
+		float: left;
+		line-height: .4rem;
+		color:#000;
+		font-weight: normal;
+	}
+	.content i{
+		float: right;
+		line-height: .4rem;
+		font-size: .2rem;
+		
+		
+	}
+	.list section{
+		/*display: flex;*/
+		width: 100%;
+		height: .4rem;
+	}
+	.list .desc{
+		/*flex: 12;*/
+		margin-top: .1rem;
+		width: 60%;
+		display: inline-block;
+		margin-left: .1rem;
+	}
+	.list .desc span{
+		display: block;
+		line-height: .2rem;
+	}
+	.list .desc strike{
+		color: #CCCCCC;
+	}
+	.list input[type='checkbox']{
+		/*flex: 1;*/
+		width: 20%;
+		border: none;
+		border: 1px solid #CCCCCC;
+		width: .2rem;
+		height: .2rem;
+		margin-left: .2rem;
+	}
+	.list input[type='text']{
+		/*flex:1 ;*/
+		width: 10%;
+		border-radius:.15rem ;
+		border: none;
+		outline: none;
+		border: 1px solid #CCCCCC;
+		text-indent: .15rem;
+		
+	}
+	.list section .pro-suit{
+		width: 100%;
+		height: .87rem;
+		margin-top: .2rem;
+	}
+	.list section .pro-suit ul li{
+		margin-top: .15rem;
+	}
+	.list section .pro-suit ul li img{
+		width:.69rem ;
+		height:.69rem;
+		float: left;
+		margin-left: .3rem;
+	}
+	.list section .pro-suit ul li p{
+		width: 60%;
+		float: left;
+	}
+	.list section .pro-suit ul li p strike{
+		color: #CCCCCC;
+	}
+	.list section .pro-suit ul li p span.number{
+		float: right;
+	}
